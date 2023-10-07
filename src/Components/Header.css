@@ -1,0 +1,56 @@
+
+.AppBar {
+    background-color: #2894dc; 
+    transition: background-color 0.3s ease;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .Toolbar {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .MenuIcon {
+    margin-right: 10px;
+  }
+  
+  .Typography {
+    flex-grow: 1;
+    color: #fff; 
+  }
+  
+  .Logo {
+    animation: slideIn 1s ease-out;
+    max-width: 60px; 
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  
+  
+  
+  .MuiListItem-root {
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .MuiListItem-root:hover {
+    background-color: #2196f3;
+  }
+  
+  .MuiListItemText-primary {
+    color: #333; 
+  }
+  
+  
+  

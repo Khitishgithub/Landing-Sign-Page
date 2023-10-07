@@ -1,0 +1,67 @@
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .intro-title {
+    font-size: 2.5rem;
+    color: #333; 
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .intro-description {
+    font-size: 1.2rem;
+    color: #666; 
+    margin-bottom: 30px;
+  }
+  
+  .intro-button {
+    background-color: #2894dc; 
+    color: #fff; 
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .intro-button:hover {
+    background-color: #3b2ec8; 
+    transform: scale(1.05); 
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .intro-title {
+      font-size: 10px; 
+    }
+  
+    .intro-description {
+      font-size: 1rem; 
+    }
+  
+    .intro-button {
+      padding: 10px 20px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .intro-title {
+      font-size: 1.5rem; 
+    }
+  
+    .intro-description {
+      font-size: 0.9rem; 
+    }
+  
+    .intro-button {
+      padding: 8px 16px;
+    }
+  }
+  
